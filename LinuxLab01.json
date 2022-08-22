@@ -11,7 +11,7 @@
   "parameters": {
     "vmName": {
       "type": "string",
-      "defaultValue": "LinuxLab01",
+      "defaultValue": "linuxlab01",
       "metadata": {
         "description": "The name of you Virtual Machine."
       }
