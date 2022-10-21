@@ -59,7 +59,7 @@
     },
     "subnetName": {
       "type": "string",
-      "defaultValue": "newtestsubnet",
+      "defaultValue": "newlab2subnet",
       "metadata": {
         "description": "Name of the subnet in the virtual network"
       }
@@ -131,11 +131,11 @@
             "name": "inbound_ssh",
             "properties": {
               "access": "Allow",
-              "description": "Inbound SSH access to port 2222.",
+              "description": "Inbound SSH access to port 22.",
               "destinationAddressPrefix": "VirtualNetwork",
               "destinationAddressPrefixes": [],
               "destinationApplicationSecurityGroups": null,
-              "destinationPortRange": "2222",
+              "destinationPortRange": "22",
               "destinationPortRanges": [],
               "direction": "Inbound",
               "priority": 100,
@@ -160,7 +160,6 @@
                 "13",
                 "17",
                 "19",
-                "22",
                 "23",
                 "53",
                 "69",
